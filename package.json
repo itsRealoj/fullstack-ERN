@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && yarn start",
+    "dev": "concurrently \"nodemon app.js\" \"npm run client\"" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "africastalking": "^0.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0"
+  }
+}
